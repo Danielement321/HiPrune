@@ -1,5 +1,7 @@
 # HiPrune: Training-Free Visual Token Pruning via Hierarchical Attention in Vision-Language Models
-[![Paper Link](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2508.00553)
+[![Arxiv Link](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2508.00553)
+[![SA Link](https://img.shields.io/badge/Student-Abstract-blue)](https://ojs.aaai.org/index.php/AAAI/article/view/42240/46201)
+[![Presentation Link](https://img.shields.io/badge/Video-Slides-green)](https://underline.io/lecture/138606-hiprune-training-free-visual-token-pruning-via-hierarchical-attention-in-vision-language-models-student-abstract)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## News
