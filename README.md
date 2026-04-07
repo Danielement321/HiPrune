@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## News
+- **[2026/4/6]** Our full version is accepted by **ACL-2026 Findings**.
 - **[2025/10/21]** Our student abstract version has been accepted by [AAAI26 SAPP](https://aaai.org/conference/aaai/aaai-26/student-abstract-and-poster-program-call/) and selected for **Oral** presentation.
 - **[2025/8/7]** We have released notebooks for producing visualizations in our paper.
 - **[2025/8/4]** We have released our paper and code for LLaVA-1.5, LLaVA-NeXT, Qwen2.5-VL.
