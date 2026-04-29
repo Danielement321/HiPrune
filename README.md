@@ -1,4 +1,4 @@
-# HiPrune: Training-Free Visual Token Pruning via Hierarchical Attention in Vision-Language Models
+# HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models
 [![Arxiv Link](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2508.00553)
 [![SA Link](https://img.shields.io/badge/Student-Abstract-blue)](https://ojs.aaai.org/index.php/AAAI/article/view/42240/46201)
 [![Presentation Link](https://img.shields.io/badge/Video-Slides-green)](https://underline.io/lecture/138606-hiprune-training-free-visual-token-pruning-via-hierarchical-attention-in-vision-language-models-student-abstract)
@@ -101,11 +101,22 @@ This repository is built on [LLaVA](https://github.com/haotian-liu/LLaVA), [Fast
 ## Citation
 If you found our work helpful, please consider leaving a star ⭐ and citing our work.
 ```
-@article{liu2025hi,
-  title={HiPrune: Training-Free Visual Token Pruning via Hierarchical Attention in Vision-Language Models},
-  author={Jizhihui Liu, Feiyi Du, Guangdao Zhu, Niu Lian, Jun Li, Bin Chen},
-  journal={arXiv preprint arXiv:2508.00553},
-  year={2025}
+@inproceedings{liu2026hiprunesapp,
+  title={HiPrune: Training-Free Visual Token Pruning via Hierarchical Attention in Vision-Language Models (Student Abstract)},
+  author={Liu, Jizhihui and Zhu, Guangdao and Du, Feiyi},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={48},
+  pages={41275--41277},
+  year={2026}
+}
+
+@inproceedings{
+  liu2026hiprune,
+  title={HiPrune: Hierarchical Attention for Efficient Token Pruning in Vision-Language Models},
+  author={Jizhihui Liu, Guangdao Zhu, Feiyi Du, Niu Lian, Jun Li, Bin Chen, Weili Guan, Yaowei Wang},
+  booktitle={The 64th Annual Meeting of the Association for Computational Linguistics},
+  year={2026}
 }
 ```
 
