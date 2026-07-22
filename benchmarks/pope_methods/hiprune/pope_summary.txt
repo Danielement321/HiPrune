@@ -1,0 +1,14 @@
+POPE | google/gemma-4-e4b-it | method hiprune | 396 balanced samples
+
+    config  req keep  eff keep  retained  accuracy      f1  yes-rate  invalid
+-----------------------------------------------------------------------------
+      0.75      0.75     0.751     197.2     0.864   0.859     0.465        0
+      0.50      0.50     0.500     131.4     0.854   0.844     0.439        0
+      0.25      0.25     0.249      65.5     0.841   0.827     0.422        0
+      0.14      0.14     0.139      36.5     0.773   0.741     0.379        0
+
+per-category accuracy:
+        0.75: adversarial 0.841 | popular 0.864 | random 0.886
+        0.50: adversarial 0.848 | popular 0.841 | random 0.871
+        0.25: adversarial 0.795 | popular 0.856 | random 0.871
+        0.14: adversarial 0.742 | popular 0.780 | random 0.795

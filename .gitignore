@@ -1,5 +1,5 @@
 # Python
-__pycache__
+__pycache__/
 *.pyc
 *.egg-info
 dist
@@ -7,11 +7,13 @@ dist
 # Log
 *.log
 *.log.*
+
+# Data / dumps (benchmarks/ is whitelisted below)
 *.json
 *.jsonl
-
-# Data
 !**/alpaca-data-conversation.json
+!benchmarks/**/*.json
+!benchmarks/**/*.jsonl
 
 # Editor
 .idea
@@ -26,7 +28,6 @@ checkpoints
 ckpts*
 
 .ipynb_checkpoints
-# *.ipynb
 
 # DevContainer
 !.devcontainer/*
@@ -36,3 +37,11 @@ serve_images/
 
 logs
 playground
+
+# Local clones / unrelated worktrees (repo-root only)
+/visualizer/
+/vllm/
+/landing-page/
+/AnchorPrune/
+/DART/
+/HyDART/

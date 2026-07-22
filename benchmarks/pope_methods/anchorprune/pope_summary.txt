@@ -1,0 +1,14 @@
+POPE | google/gemma-4-e4b-it | method anchorprune | 396 balanced samples
+
+    config  req keep  eff keep  retained  accuracy      f1  yes-rate  invalid
+-----------------------------------------------------------------------------
+      0.75      0.75     0.751     197.2     0.876   0.872     0.467        0
+      0.50      0.50     0.500     131.4     0.871   0.868     0.472        0
+      0.25      0.25     0.249      65.5     0.864   0.859     0.465        0
+      0.14      0.14     0.139      36.5     0.831   0.813     0.407        0
+
+per-category accuracy:
+        0.75: adversarial 0.864 | popular 0.879 | random 0.886
+        0.50: adversarial 0.864 | popular 0.871 | random 0.879
+        0.25: adversarial 0.826 | popular 0.879 | random 0.886
+        0.14: adversarial 0.780 | popular 0.856 | random 0.856

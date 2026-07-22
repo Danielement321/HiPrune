@@ -1,0 +1,39 @@
+{
+  "dataset": "lmms-lab/POPE (test)",
+  "benchmark": "pope",
+  "model": "google/gemma-4-e4b-it",
+  "method": "nprune",
+  "num_samples": 396,
+  "seed": 0,
+  "manifest": "/home/younes/hiprune/benchmarks/pope_methods/sample_manifest.json",
+  "results": [
+    {
+      "method": "nprune",
+      "label": "stride2",
+      "requested_keep": 0.25,
+      "ratio": 0.25,
+      "num_samples": 396,
+      "accuracy": 0.8434343434343434,
+      "precision": 0.925,
+      "recall": 0.7474747474747475,
+      "f1": 0.8268156424581006,
+      "yes_rate": 0.40404040404040403,
+      "invalid": 0,
+      "per_category_accuracy": {
+        "adversarial": 0.8484848484848485,
+        "popular": 0.8181818181818182,
+        "random": 0.8636363636363636
+      },
+      "mean_prompt_tokens": 93.86868686868686,
+      "mean_original_tokens": 262.719696969697,
+      "mean_retained_tokens": 69.70454545454545,
+      "median_retained_tokens": 70.0,
+      "min_retained_tokens": 63,
+      "max_retained_tokens": 77,
+      "mean_effective_keep": 0.26532532209346793,
+      "metadata_missing": 0,
+      "accuracy_pass_seconds": 8.864019931002986,
+      "stride": 2
+    }
+  ]
+}
