@@ -1,0 +1,8 @@
+POPE | google/gemma-4-e4b-it | method baseline | 396 balanced samples
+
+    config  req keep  eff keep  retained  accuracy      f1  yes-rate  invalid
+-----------------------------------------------------------------------------
+  baseline      1.00     1.000         —     0.869   0.862     0.455        0
+
+per-category accuracy:
+    baseline: adversarial 0.856 | popular 0.864 | random 0.886

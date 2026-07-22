@@ -1,0 +1,14 @@
+POPE | google/gemma-4-e4b-it | method hydart | 396 balanced samples
+
+    config  req keep  eff keep  retained  accuracy      f1  yes-rate  invalid
+-----------------------------------------------------------------------------
+      0.75      0.75     0.751     197.2     0.859   0.853     0.460        0
+      0.50      0.50     0.500     131.4     0.841   0.831     0.442        0
+      0.25      0.25     0.249      65.5     0.841   0.828     0.427        0
+      0.14      0.14     0.139      36.5     0.823   0.802     0.394        0
+
+per-category accuracy:
+        0.75: adversarial 0.826 | popular 0.864 | random 0.886
+        0.50: adversarial 0.826 | popular 0.841 | random 0.856
+        0.25: adversarial 0.818 | popular 0.826 | random 0.879
+        0.14: adversarial 0.780 | popular 0.841 | random 0.848

@@ -1,0 +1,14 @@
+POPE | google/gemma-4-e4b-it | method dart | 396 balanced samples
+
+    config  req keep  eff keep  retained  accuracy      f1  yes-rate  invalid
+-----------------------------------------------------------------------------
+      0.75      0.75     0.746     196.1     0.851   0.840     0.432        0
+      0.50      0.50     0.502     131.9     0.831   0.808     0.381        0
+      0.25      0.25     0.258      67.8     0.742   0.673     0.288        0
+      0.14      0.14     0.137      36.0     0.694   0.575     0.220        0
+
+per-category accuracy:
+        0.75: adversarial 0.826 | popular 0.848 | random 0.879
+        0.50: adversarial 0.818 | popular 0.833 | random 0.841
+        0.25: adversarial 0.735 | popular 0.727 | random 0.765
+        0.14: adversarial 0.689 | popular 0.652 | random 0.742

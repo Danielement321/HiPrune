@@ -1,0 +1,8 @@
+POPE | google/gemma-4-e4b-it | method checkered | 396 balanced samples
+
+    config  req keep  eff keep  retained  accuracy      f1  yes-rate  invalid
+-----------------------------------------------------------------------------
+ checkered      0.50     0.500     131.4     0.866   0.857     0.437        0
+
+per-category accuracy:
+   checkered: adversarial 0.864 | popular 0.864 | random 0.871
